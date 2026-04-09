@@ -8,12 +8,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+server/node_modules
 dist
 dist-ssr
 dev-dist
 *.local
 
-# Variables de entorno (contienen credenciales)
+# Variables de entorno (contienen credenciales - usar .env.example como plantilla)
 server/.env
 .env
 
