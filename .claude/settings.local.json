@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(del \"c:\\\\Users\\\\vicen\\\\Desktop\\\\Tecnologia SENA\\\\Trismestre 3\\\\React\\\\API\\\\src\\\\index.css\")"
+    ]
+  }
+}
