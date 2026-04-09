@@ -4,6 +4,7 @@ import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet'
 import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import SecurityIcon from '@mui/icons-material/Security'
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome'
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 const features = [
   {
@@ -142,6 +143,28 @@ export default function Landing({ onNavigate }) {
                     sx={{ px: 4, py: 1.5, fontSize: '1rem' }}
                   >
                     Ya tengo cuenta
+                  </Button>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
+                  <Button
+                    variant="outlined"
+                    size="large"
+                    component="a"
+                    href="https://github.com/BananoDurisimo/API-React"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    startIcon={<GitHubIcon />}
+                    sx={{
+                      px: 4, py: 1.5, fontSize: '1rem',
+                      borderColor: 'rgba(255,255,255,0.2)',
+                      color: 'text.primary',
+                      '&:hover': {
+                        borderColor: 'rgba(255,255,255,0.5)',
+                        bgcolor: 'rgba(255,255,255,0.05)',
+                      },
+                    }}
+                  >
+                    GitHub
                   </Button>
                 </motion.div>
               </Box>

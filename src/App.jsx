@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import Header from './features/layout/components/Header'
 import Footer from './features/layout/components/Footer'
+import Content from './features/layout/components/Content'
 import Home from './features/expenses/components/Home'
-import Characters from './features/layout/components/Content'
+import Characters from './features/characters/components/Characters'
 import Login from './features/auth/components/Login'
 import Register from './features/auth/components/Register'
-import Landing from './features/landing/components/Landing'
 
 const pageVariants = {
   initial: { opacity: 0, y: 24 },
@@ -69,7 +69,7 @@ function App() {
 
       <AnimatePresence mode="wait">
         {page === 'landing' && (
-          <Page key="landing"><Landing onNavigate={handleNavigate} /></Page>
+          <Page key="landing"><Content onNavigate={handleNavigate} /></Page>
         )}
         {page === 'home' && currentUser && (
           <Page key="home"><Home currentUser={currentUser} /></Page>
