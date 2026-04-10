@@ -221,13 +221,13 @@ Usuario → Register/Login → API REST → MongoDB Atlas
 ## Screenshots
 
 ### Página de inicio (Landing)
-![Landing](public/img/landing.png)
+![Landing](frontend/public/img/landing.png)
 
 ### Registro de usuario
-![Register](public/img/register.png)
+![Register](frontend/public/img/register.png)
 
 ### Dashboard de gastos
-![Dashboard](public/img/dashboard.png)
+![Dashboard](frontend/public/img/dashboard.png)
 
 ---
 
